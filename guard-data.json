@@ -1,0 +1,64 @@
+{
+  "when_required_part9": "9.8.8.1: a guard is required on each unprotected side of an accessible surface (stairs, ramps, landings, porches, balconies, mezzanines, galleries, raised walkways) where the difference in elevation is more than 600 mm to the adjacent surface, the adjacent surface being considered within 1.2 m of the edge.",
+  "heights_part9_mm": {
+    "general": {
+      "height": 1070,
+      "basis": "9.8.8.3 \u2014 all guards, general minimum"
+    },
+    "dwelling_unit": {
+      "height": 900,
+      "basis": "9.8.8.3 \u2014 within a dwelling unit"
+    },
+    "ext_low": {
+      "height": 900,
+      "basis": "9.8.8.3 \u2014 exterior, serving not more than one dwelling unit, walking surface not more than 1,800 mm above finished ground"
+    },
+    "ext_high": {
+      "height": 1070,
+      "basis": "9.8.8.3 \u2014 exterior, serving not more than one dwelling unit, walking surface more than 1,800 mm above finished ground"
+    },
+    "steps": {
+      "height": 900,
+      "basis": "9.8.8.3 \u2014 flights of steps, except required exit stairs"
+    },
+    "exit_flight": {
+      "height": 920,
+      "basis": "9.8.8.3 \u2014 required exit stairs, measured from the line of nosings"
+    },
+    "exit_landing": {
+      "height": 1070,
+      "basis": "9.8.8.3 \u2014 around landings of required exit stairs"
+    },
+    "ext_10m": {
+      "height": 1500,
+      "basis": "9.8.8.3 \u2014 exterior stairs/landings more than 10 m above adjacent ground"
+    }
+  },
+  "heights_part3_mm": {
+    "general": {
+      "height": 1070,
+      "basis": "3.3.1.18 \u2014 roofs with access, raised floors, mezzanines, balconies, galleries, ramps"
+    },
+    "exit_flight": {
+      "height": 920,
+      "basis": "3.4.6.5 \u2014 exit stairs, measured from the line of nosings"
+    },
+    "exit_landing": {
+      "height": 1070,
+      "basis": "3.4.6.5 \u2014 around landings of exit stairs"
+    },
+    "ext_10m": {
+      "height": 1500,
+      "basis": "3.4.6.5 \u2014 exterior stairs/landings more than 10 m above adjacent ground"
+    }
+  },
+  "openings": "9.8.8.5: openings through a required guard must prevent passage of a 100 mm diameter sphere; triangular openings at stair treads/risers must prevent passage of a 150 mm sphere; guards in industrial occupancies: 200 mm sphere.",
+  "climbability": "9.8.8.6 (Part 9): no member, attachment or opening located between 140 mm and 900 mm above the walking surface may facilitate climbing. Ontario applies this to essentially every required Part 9 guard (no height threshold, unlike NBC 2020).",
+  "loads_part9_table_9_8_8_2": {
+    "within dwelling units / exterior serving up to 2 dwelling units": "horizontal 0.5 kN/m or 1.0 kN concentrated at any point; individual elements 0.5 kN over max 300 mm x 300 mm; vertical 1.5 kN/m",
+    "access walkways to equipment platforms and similar": "horizontal 1.0 kN concentrated at any point; individual elements 0.5 kN at any point; vertical 1.5 kN/m",
+    "all other guards": "horizontal 0.75 kN/m or 1.0 kN concentrated at any point; individual elements 0.5 kN at any point; vertical 1.5 kN/m"
+  },
+  "loads_part3_4_1_5_14": "Horizontal at the minimum required height: 3.0 kN/m for open viewing stands without fixed seats and means of egress locations; 1.0 kN concentrated for access ways to equipment platforms; 0.75 kN/m or 1.0 kN concentrated, whichever governs, elsewhere. Vertical load at the top: 1.5 kN/m (need not act simultaneously).",
+  "source": "OBC 2024 Articles 9.8.8.1-9.8.8.6, 3.3.1.18, 3.4.6.5, 4.1.5.14, via code text and municipal guides quoting it verbatim, verified 2026-11-15"
+}
